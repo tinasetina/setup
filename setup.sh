@@ -44,8 +44,8 @@ echo "     * Creator : Kaizen Apeach                               *"
 echo "     * Telegram : @KaizenA                                   *"
 echo "     * Email : hazboyz@gmail.com                             *"
 echo "     ========================================================="
-echo "     * 1. Install VPS Debian 7 [32bit&64bit]                 *"
-echo "     * 2. Install VPS Debian 8 [32bit&64bit]                 *"
+echo "     * 1. Install VPS Debian 9 [32bit&64bit]                 *"
+echo "     * 2. Install VPS Debian 10 [32bit&64bit]                *"
 echo "     * 3. Install VPS Centos 6 [32bit&64bit]                 *"
 echo "     * 4. Install VPS Centos 7 [64bit]                       *"
 echo "     * 5. Install OCS Panel                                  *"
@@ -57,15 +57,15 @@ read -p "Nombor Pilihan Anda (Nombor): " x
 echo " "
 
 if test $x -eq 1; then
-wget https://raw.githubusercontent.com/Apeachsan91/debian7/master/deb7.sh && chmod +x deb7.sh && ./deb7.sh
+wget https://raw.githubusercontent.com/Apeachsan91/Debian9/master/setup && chmod +x setup && ./setup
 elif test $x -eq 2; then
-wget https://raw.githubusercontent.com/Apeachsan91/debian8/master/deb8.sh && chmod +x deb8.sh && ./deb8.sh
+echo "Masih dalam proses pembuatan"
 elif test $x -eq 3; then
 echo "Masih dalam proses pembuatan"
 elif test $x -eq 4; then
 echo "Masih dalam proses pembuatan"
 elif test $x -eq 5; then
-wget https://raw.githubusercontent.com/Apeachsan91/OCS/master/ocs.sh && chmod +x ocs.sh && ./ocs.sh
+echo "Masih dalam proses pembuatan"
 elif test $x -eq 6; then
 exit
 else
